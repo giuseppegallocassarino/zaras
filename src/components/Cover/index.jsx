@@ -2,7 +2,7 @@ import styles from "./Cover.module.scss";
 
 
 
-const Img = ({src}) => {
+const Cover = () => {
 
 return (
 
@@ -10,7 +10,7 @@ return (
 
 
 <div className={styles.cover__copy}>
-   <img src={src} alt="product" className={styles.cover}/>
+  
    <div className={styles.up}>
    
    <span>
@@ -32,5 +32,5 @@ return (
 
 
 
-export default Img
+export default Cover
   
