@@ -1,9 +1,12 @@
+@import './../../libs/variables.scss';
+
 .footer{
     padding: 50px 20px;
+    width: 100%;
 }
 
 .footer{
-    background-color: lightcyan;
+    background-color: $mainDarker;
     padding: 100px 50px;
     text-align: center;
     color: black;

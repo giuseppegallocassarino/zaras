@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap');
+
 // Colors
 $main: #000;
 $white: #fff;
 $lightGray: #ecf0f1;
+
+
+$mainLighter: rgb(253, 226, 194);
+$mainDarker: rgb(92, 51, 23);
+
 
 // Transitions
 $baseTransition: all 0.4s ease;
 
 // Box
 $sidePadding: 30px;
+
+
+//font
+$fontPlayfair: 'Playfair Display', serif;
