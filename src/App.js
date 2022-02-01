@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import { Products } from "./pages/Products/Products";
+import { ProductsPlaceHolder } from "./pages/Products/ProductsPlacheholder";
 import { Home } from "./pages/Home/Home";
 import { ChiSiamo } from "./pages/ChiSiamo/ChiSiamo";
 import Footer from "./components/Footer";
@@ -42,7 +42,7 @@ function App() {
       <Header name={INIT_STATE.name} links={INIT_STATE.nav} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/products" element={<ProductsPlaceHolder />} />
         <Route
           path="/chisiamo"
           element={articles.map((article, index) => (
