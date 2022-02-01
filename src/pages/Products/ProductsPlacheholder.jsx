@@ -1,4 +1,4 @@
-const Products = () => {
+const ProductsPlaceHolder = () => {
     return(
         <ul>
             <li>
@@ -10,4 +10,4 @@ const Products = () => {
     )
 }
 
-export {Products}
+export {ProductsPlaceHolder}
